@@ -4,6 +4,7 @@
 sudo pacman -S base-devel git go
 cd ~
 mkdir Downloads
+mkdir Pictures
 cd ~/Downloads
 git clone https://aur.archlinux.org/yay.git
 cd yay
