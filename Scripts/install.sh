@@ -25,7 +25,7 @@ mkdir ~/.config
 cp -f -r ~/Downloads/dotflies-sway/.p10k.zsh ~/
 cp -f -r ~/Downloads/dotfiles-sway/.zshrc ~/
 cp -f -r ~/Downloads/dotfiles-sway/.config/* ~/.config/
-cp -f -r ~/Downloads/dotfiles-sway/Pictures ~/Pictures/
+cp -f -r ~/Downloads/dotfiles-sway/Pictures/* ~/Pictures/
 sudo cp -r /usr/share/zsh-theme-powerlevel10k/* /usr/share/oh-my-zsh/themes/
 
 #Run Stuff
