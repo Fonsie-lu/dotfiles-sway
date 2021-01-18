@@ -31,8 +31,6 @@ bar {
   swaybar_command waybar 
 }
 
-exec_always import-gsettings.sh
-
 bindsym $mod+Return exec $term
 bindsym $mod+q kill
 bindsym $mod+e exec $menu
