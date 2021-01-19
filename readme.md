@@ -18,7 +18,6 @@ Includes:
 
 - yay
 - wayland, xwayland, pipewire
-- ly Greeter
 - sway, waybar, wofi, alacritty
 - Nord Themes
 - NeoVim + Plugins
@@ -27,3 +26,4 @@ Not included:
 
 - Graphics driver
 - fancy kernel
+- Greeter: sway is called in .zshrc

@@ -156,7 +156,13 @@ alias cd...="cd ..."
 alias cd....="cd ...."
 alias cdd="cd ~/Downloads/"
 
+if [[ -z "$IS_SWAY_RUNNING" ]]; then
+   export IS_SWAY_RUNNING="yes"
+   exec sway;
+ else echo "";
+fi
+
 # Greeting
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-pfetch
+neofetch
