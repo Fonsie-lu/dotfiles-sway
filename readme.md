@@ -4,8 +4,9 @@
 
 # How is it done
 
-no prerequisites
-Just run
+- no prerequisites, plain Arch is recommended
+- clone git to ~/Downloads/
+- run the install Shell script:
 
 ```sh
 ./Scripts/install.sh
@@ -17,11 +18,12 @@ Includes:
 
 - yay
 - wayland, xwayland, pipewire
+- ly Greeter
 - sway, waybar, wofi, alacritty
 - Nord Themes
 - NeoVim + Plugins
 
 Not included:
 
-- Graphic driver
+- Graphics driver
 - fancy kernel

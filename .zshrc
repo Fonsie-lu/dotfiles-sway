@@ -22,8 +22,10 @@ export ZSH="/usr/share/oh-my-zsh"
 export EDITOR="/usr/share/nvim"
 export VISUAL="/usr/share/nvim"
 export XDG_CURRENT_DESKTOP="sway"
+#export GDK_BACKEND="wayland"
 export QT_QPA_PLATFORM="wayland"
 export QT_QPA_PLATFORMTHEME="qt5ct" 
+#export _JAVA_AWT_WM_NONREPARENTING="1"
 
 
 

@@ -2,17 +2,16 @@
 
 #Install yay
 sudo pacman -S base-devel git go
-cd ~
-mkdir Downloads
-mkdir Pictures
 cd ~/Downloads
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+rm -r -f ~/Downloads/yay
+cd ~/Downloads
 
 #Install Packages
 sudo pacman -S feh code wget qt5ct ctags wayland xorg-xwayland wofi pipewire gtk4 python-pip zsh gtk3 pavucontrol vlc nemo python-pynvim nodejs yarn npm xsel w3m openssh alacritty python-requests xdg-desktop-portal-wlr bluez blueberry pulseaudio-bluetooth neovim python-pip kvantum-qt5 ttf-ubuntu-font-family pacman-contrib archlinux-contrib ttf-opensans
-yay -S neovim-plug zsh-syntax-highlighting zsh-theme-powerlevel10k-git pfetch-git vim-devicons youtube-dl perl kvantum-theme-nordic-git checkupdates-aur fzf nordic-theme-git papirus-folders-nordic nerd-fonts-jetbrains-mono ksnip wlogout wdisplays google-chrome-dev light
+yay -S neovim-plug zsh-syntax-highlighting zsh-theme-powerlevel10k-git pfetch-git vim-devicons youtube-dl perl kvantum-theme-nordic-git checkupdates-aur fzf nordic-theme-git papirus-folders-nordic nerd-fonts-jetbrains-mono ksnip wlogout wdisplays google-chrome-dev light ly
 
 #Setup Environement
 sudo cp ~/Downloads/doflies-sway/Scripts/backlight.rules /etc/udev/rules.d/
@@ -21,6 +20,7 @@ pip install neovim-remote
 
 #Create Directory
 mkdir ~/.config
+mkdir ~/Pictures
 
 #Copy configs
 cp -f -r ~/Downloads/dotflies-sway/.p10k.zsh ~/
